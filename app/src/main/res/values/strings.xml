@@ -1,0 +1,57 @@
+<resources>
+    <string-array name="blood_groups">
+        <item>O</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="rhds">
+        <item>Positive</item>
+        <item>Negative</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="app_name">Plasma Finder</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_donors">My Donors</string>
+    <string name="my_requests">My Requests</string>
+    <string name="donors">Donors</string>
+    <string name="requests">Requests</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="no_account_yet_create_one">No account yet? Create one.</string>
+    <string name="please_wait">Please Wait..</string>
+    <string name="login">Login</string>
+    <string name="register_a_new_account">Register a new Account</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="register">Register</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="age">Age</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="phone">Phone</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="edit">Edit</string>
+    <string name="save_info">Save Info</string>
+    <string name="edit_mode_enabled">Edit mode enabled</string>
+    <string name="disable_edit_mode">Disable edit mode</string>
+    <string name="name_star">Name*</string>
+    <string name="email_star">Email*</string>
+    <string name="necessary_text">*Fields marked with asterisk are necessary</string>
+    <string name="name_of_donor">Name of Donor:</string>
+    <string name="age_colon">Age:</string>
+    <string name="blood_group">Blood Group:</string>
+    <string name="email_colon">Email:</string>
+    <string name="phone_colon">Phone:</string>
+    <string name="name_of_patient">Name of Patient:</string>
+    <string name="add_request">Add Request</string>
+    <string name="add_donor">Add Donor</string>
+    <string name="description_colon">Description:</string>
+    <string name="are_you_sure_you_want_to_delete">Are you sure you want to delete?</string>
+    <string name="log_out">Log out</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
+</resources>

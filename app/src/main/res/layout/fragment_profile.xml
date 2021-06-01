@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/name_star"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:hint="@string/enter_your_name"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/email_star"
+        android:textSize="18sp"
+        android:layout_below="@id/edit_name"
+        />
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:hint="@string/enter_your_email"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/age"
+        android:textSize="18sp"
+        android:layout_below="@id/edit_email"
+        />
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:hint="@string/enter_your_age"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/phone"
+        android:textSize="18sp"
+        android:layout_below="@id/edit_age"
+        />
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:hint="@string/enter_your_phone_number"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/necessary_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/necessary_text"
+        android:textStyle="bold"
+        android:textColor="@color/light_red"
+        android:layout_below="@id/edit_phone"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/edit_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_mode_enabled"
+        android:textStyle="bold"
+        android:textColor="@color/light_red"
+        android:layout_below="@id/necessary_text"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/save_info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_mode"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save_info"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/disable_edit_mode_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save_info_button"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/disable_edit_mode"
+        android:textAllCaps="false"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386925931621",
+    "project_id": "plasma-finder-fd1fc",
+    "storage_bucket": "plasma-finder-fd1fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386925931621:android:efca137c836aee7d20ea8c",
+        "android_client_info": {
+          "package_name": "com.example.plasmafinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386925931621-1i5lqmosauu69bo4v7g16p627k5g0m4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHc8C-CqcW83MrG1PEv1rOK5DIAihGZaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386925931621-1i5lqmosauu69bo4v7g16p627k5g0m4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

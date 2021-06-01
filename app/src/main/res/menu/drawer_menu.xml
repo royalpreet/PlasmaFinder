@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/nav_my_donors"
+            android:title="@string/my_donors" />
+        <item
+            android:id="@+id/nav_my_requests"
+            android:title="@string/my_requests" />
+    </group>
+
+    <group android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donors"
+            android:title="@string/donors" />
+        <item
+            android:id="@+id/nav_requests"
+            android:title="@string/requests" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/log_out"
+            android:title="@string/log_out" />
+    </group>
+</menu>
